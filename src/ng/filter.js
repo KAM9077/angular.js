@@ -119,6 +119,7 @@ function $FilterProvider($provide) {
     lowercaseFilter: false,
     numberFilter: false,
     orderByFilter: false,
+    startFromFilter: false,
     uppercaseFilter: false,
   */
 
@@ -130,5 +131,6 @@ function $FilterProvider($provide) {
   register('lowercase', lowercaseFilter);
   register('number', numberFilter);
   register('orderBy', orderByFilter);
+  register('startFrom', startFromFilter);
   register('uppercase', uppercaseFilter);
 }
